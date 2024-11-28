@@ -15,7 +15,7 @@ const OurAchievement = () => {
               <span className="text-[16px] text-[#000000] ml-2">Courses</span>
             </div>
             <div className="flex flex-col items-center gap-8">
-              <span className="text-[40px] font-bold text-[#000000]">5K</span>
+              <span className="text-[40px] font-bold text-[#000000]">50K</span>
               <span className="text-[16px] text-[#000000] ml-2">Mentors</span>
             </div>
             <div className="flex flex-col items-center gap-8">
@@ -42,7 +42,7 @@ const OurAchievement = () => {
               <span className="text-[16px] text-[#000000] ml-2">Courses</span>
             </div>
             <div className="flex flex-col items-center gap-8">
-              <span className="text-[40px] font-bold text-[#000000]">5K</span>
+              <span className="text-[40px] font-bold text-[#000000]">50K</span>
               <span className="text-[16px] text-[#000000] ml-2">Mentors</span>
             </div>
             <div className="flex flex-col items-center gap-8">

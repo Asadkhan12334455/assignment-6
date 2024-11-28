@@ -44,6 +44,7 @@ const OurTeam: React.FC = () => {
         website: "https://erickkipkemboi.com",
       },
       image: '/team4.png',
+    
     },
     {
       name: "Stephen Kerubo",
