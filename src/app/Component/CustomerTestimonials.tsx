@@ -37,7 +37,6 @@ const CustomerTestimonial = () => {
         </p>
       </div>
 
-      {/* Testimonials Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {testimonials.map((customer, index) => (
           <div
@@ -71,27 +70,23 @@ const CustomerTestimonial = () => {
         ))}
       </div>
 
-      {/* Pagination Controls */}{/* Pagination Controls */}
-<div className="flex justify-between items-center mt-8 px-4 sm:px-8">
-  {/* Dots on the left */}
-  <div className="flex gap-2">
-    <span className="w-2 h-2 bg-[#000000] rounded-full"></span>
-    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-  </div>
-  
-  {/* Arrow image on the right */}
-  <Image
-    src="/Slider Buttons.png"
-    alt="slider arrow"
-    width={111}
-    height={48}
-    className="cursor-pointer"
-  />
-</div>
+      <div className="flex justify-between items-center mt-8 px-4 sm:px-8">
+        <div className="flex gap-2">
+          <span className="w-2 h-2 bg-[#000000] rounded-full"></span>
+          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+        </div>
 
+        <Image
+          src="/Slider Buttons.png"
+          alt="slider arrow"
+          width={111}
+          height={48}
+          className="cursor-pointer"
+        />
+      </div>
     </section>
   );
 };

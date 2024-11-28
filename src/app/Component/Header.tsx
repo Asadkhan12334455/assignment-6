@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="hidden md:block bg-white">
       <header className="w-full bg-gray-100 px-8 py-4 shadow-md">
-        {/* Contact Info */}
+        {/* Contact Infornation */}
         <div className="flex justify-between items-center text-sm text-gray-700">
           <p>
             Phone Number: 956 742 455 678 

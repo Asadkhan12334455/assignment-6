@@ -1,12 +1,11 @@
-import React from 'react';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import Image from 'next/image';
+import React from "react";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const Footer: React.FC = () => {
   return (
     <footer className="border-t border-gray-200 py-8 px-4 md:px-16">
-      {/* Newsletter Section */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 items-center gap-6">
         <div className="text-center sm:text-center md:text-left">
           <h2 className="text-[18px] font-bold text-[#000000]">
@@ -32,7 +31,7 @@ const Footer: React.FC = () => {
             </Button>
           </form>
           <p className="text-[14px] text-[#000000] mt-4 text-center">
-            By subscribing, you agree to our{' '}
+            By subscribing, you agree to our{" "}
             <a href="#" className="underline">
               Privacy Policy
             </a>
@@ -41,9 +40,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Footer Links Section */}
       <div className="max-w-7xl mx-auto mt-10 flex flex-wrap small:flex-col small:items-center md:flex-row md:justify-between gap-8 py-9">
-        {/* Logo Section */}
         <div className="flex flex-col items-center xs:items-center">
           <Image
             src="/Logo.png"
@@ -54,7 +51,6 @@ const Footer: React.FC = () => {
           />
         </div>
 
-        {/* Courses Section */}
         <div className="text-center small:text-center md:text-left">
           <h4 className="text-lg font-medium text-[#000000]">Courses</h4>
           <ul className="mt-4 space-y-2 text-[#000000] text-sm">
@@ -66,7 +62,6 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Resources Section */}
         <div className="text-center small:text-center md:text-left">
           <h4 className="text-lg font-medium text-[#000000]">Resources</h4>
           <ul className="mt-4 space-y-2 text-[#000000] text-sm">
@@ -78,7 +73,6 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* About Us Section */}
         <div className="text-center small:text-center md:text-left">
           <h4 className="text-lg font-medium text-[#000000]">About Us</h4>
           <ul className="mt-4 space-y-2 text-[#000000] text-sm">
@@ -91,12 +85,12 @@ const Footer: React.FC = () => {
         </div>
       </div>
 
-      {/* Divider */}
       <hr className="border-t border-gray-300 my-8" />
 
-      {/* Bottom Section */}
       <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:items-center md:flex-row md:justify-between text-gray-800 text-sm">
-        <p className="text-center md:text-left">2023 Ddsgnr. All rights reserved.</p>
+        <p className="text-center md:text-left">
+          2023 Ddsgnr. All rights reserved.
+        </p>
 
         <div className="flex gap-4 mt-4 md:mt-0 small:justify-center small:items-center">
           <div className="hover:underline">Privacy Policy</div>

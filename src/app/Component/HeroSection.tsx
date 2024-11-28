@@ -16,15 +16,13 @@ const HeroSection: React.FC = () => {
               taught by expert instructors.
             </p>
             <div className="flex flex-row sm:flex-row sm:flex-wrap gap-4">
-  <Button className="text-sm sm:text-base h-[48px] w-full sm:w-[178px] px-[24px] py-[12px] rounded-[5px] bg-black text-white hover:bg-gray-800">
-    Start learning now
-  </Button>
-  <Button className="text-sm sm:text-base h-[48px] w-full sm:w-[178px] px-2 py-3 border border-gray-300 text-black bg-white rounded-md">
-    Explore Courses
-  </Button>
-</div>
-
-
+              <Button className="text-sm sm:text-base h-[48px] w-full sm:w-[178px] px-[24px] py-[12px] rounded-[5px] bg-black text-white hover:bg-gray-800">
+                Start learning now
+              </Button>
+              <Button className="text-sm sm:text-base h-[48px] w-full sm:w-[178px] px-2 py-3 border border-gray-300 text-black bg-white rounded-md">
+                Explore Courses
+              </Button>
+            </div>
           </div>
 
           <div className="relative w-full">

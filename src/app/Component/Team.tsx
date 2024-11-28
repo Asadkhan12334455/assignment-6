@@ -1,7 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaTwitter, FaGlobe } from 'react-icons/fa';
-import Image from 'next/image';
-
+import { FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
+import Image from "next/image";
 
 const OurTeam: React.FC = () => {
   const teamMembers = [
@@ -11,9 +10,9 @@ const OurTeam: React.FC = () => {
       socialLinks: {
         linkedin: "https://linkedin.com/in/johndoe",
         twitter: "https://twitter.com/johndoe",
-        website: "https://jamesnduku.com",  
+        website: "https://jamesnduku.com",
       },
-      image: '/team1.png',
+      image: "/team1.png",
     },
     {
       name: "Joseph Munyambu",
@@ -23,7 +22,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/janesmith",
         website: "https://josephmunyambu.com",
       },
-      image: '/team2.png',
+      image: "/team2.png",
     },
     {
       name: "Joseph Ngumbau",
@@ -33,7 +32,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/alexjohnson",
         website: "https://josephngumbau.com",
       },
-      image: '/team3.png',
+      image: "/team3.png",
     },
     {
       name: "Erick Kipkemboi",
@@ -43,8 +42,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/mariagarcia",
         website: "https://erickkipkemboi.com",
       },
-      image: '/team4.png',
-    
+      image: "/team4.png",
     },
     {
       name: "Stephen Kerubo",
@@ -54,7 +52,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/davidlee",
         website: "https://stephenkerubo.com",
       },
-      image: '/team5.png',
+      image: "/team5.png",
     },
     {
       name: "John Leboo",
@@ -64,7 +62,7 @@ const OurTeam: React.FC = () => {
         twitter: "https://twitter.com/saradavis",
         website: "https://johnleboo.com",
       },
-      image: '/team6.png',
+      image: "/team6.png",
     },
   ];
 
@@ -82,7 +80,6 @@ const OurTeam: React.FC = () => {
             key={index}
             className="p-6 text-center bg-white shadow-lg rounded-lg hover:shadow-lg hover:shadow-black transition-shadow duration-300 flex flex-col items-center justify-between"
           >
-            {/* Image */}
             <div className="w-32 h-32 mx-auto mb-4 flex justify-center items-center ">
               <Image
                 src={member.image}
@@ -93,13 +90,13 @@ const OurTeam: React.FC = () => {
               />
             </div>
 
-            {/* Name and Role */}
             <div className="flex flex-col items-center mb-6">
-              <h3 className="text-[20px] font-bold text-[#000000]">{member.name}</h3>
+              <h3 className="text-[20px] font-bold text-[#000000]">
+                {member.name}
+              </h3>
               <p className="text-[18px] text-[#555555]">{member.role}</p>
             </div>
 
-            {/* Social Icons */}
             <div className="flex justify-center gap-4 mt-4 py-4">
               <a
                 href={member.socialLinks.linkedin}
